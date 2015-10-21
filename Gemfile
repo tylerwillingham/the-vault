@@ -25,6 +25,7 @@ gem 'active_model_serializers', '~> 0.10.0.rc2'
 # gem 'rack-cors'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
